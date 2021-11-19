@@ -1,0 +1,23 @@
+/* Our CSS file. */
+
+
+.container, .content-box{
+    width: 100%;
+}
+
+.content-box{
+    display: inline-block;
+}
+
+.content{
+    display: inline-block;
+    width: 48%;
+}
+
+.top{
+    vertical-align: top;
+}
+
+.centerh1{
+    vertical-align: middle
+}

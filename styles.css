@@ -1,0 +1,11 @@
+header .header-content , .content-section{
+    display: inline-block;
+    width: 45%;
+}
+header h2{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}

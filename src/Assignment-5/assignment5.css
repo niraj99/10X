@@ -1,7 +1,71 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+.container,
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper{
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex: 0 0 auto;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 80px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card-img{
+    border-radius: 5px;
+    width: 250px;
+    position: relative;
+    flex: 0 0 auto;
+    background: lightgreen;
+}
+
+.card-img img{
+    position: absolute;
+    bottom: 3em;
+    left: 50%;
+    margin-left: -175px;
+    width: 350px;
+}
+
+.card-para{
+    padding: 3em 4em 2em;
+}
+
+.card-para a{
+    background-color: #8dc26f;
+    color: white;
+    padding: 15px 25px;
+    height: 50px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 1.5em;
 }
